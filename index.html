@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Static site — no build step, open index.html directly -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -38,6 +39,14 @@
     margin: 0 0 1.25rem;
   }
   p:last-child { margin-bottom: 0; }
+  a {
+    color: #883500;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(136, 53, 0, 0.35);
+    transition: border-color 0.15s ease;
+  }
+  a:hover { border-bottom-color: #883500; }
 
   @media (max-width: 480px) {
     body { padding: 2rem 1.25rem; }
@@ -64,7 +73,7 @@
     </svg>
   </div>
   <p>Celt Studio is a Texas-based software company dedicated to building high-precision, utilitarian tools. Guided by the principle that form follows function, we create apps as intentional as primitive tools.</p>
-  <p>While we primarily develop our own suite of essential utilities, we collaborate with like-minded partners on projects that demand exceptional craft.</p>
+  <p>While we primarily develop our own suite of essential utilities, we take on a select few partnerships on projects that demand exceptional craft. To enquire, <a href="mailto:hello@celt.studio">say hello</a>.</p>
 </main>
 </body>
 </html>
